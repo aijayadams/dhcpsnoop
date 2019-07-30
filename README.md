@@ -1,13 +1,11 @@
-# snoop
+# dhcpsnoop
 DHCP snooper for augmentation of presence information in smart home applications.
 
 
 ### Installing
 
 ```
-git clone git@github.com:aijayadams/snoop.git
-cd snoop
-pip install -r requirements.txt
+pip install dhcpsnoop
 ```
 
 ### Configure your trusted devices
@@ -27,5 +25,5 @@ presence_times:
 Start the snooper in your terminal and test the trigger!
 
 ```
-snoop.py -c snoop.conf
+snoop.py -c dhcpsnoop/snoop.conf
 ```

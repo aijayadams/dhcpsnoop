@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.7
 import click
 import datetime
-from dhcpsnooper.snooper import Snooper
+from dhcpsnoop.snooper import Snooper
 
 
 def set_presence(src: str) -> None:
