@@ -19,7 +19,7 @@ class SnooperConfiguration:
 
 
 class Snooper:
-    def __init__(self, callback=None, config_file="/etc/snoop.conf", filter="port 68") -> None:
+    def __init__(self, callback=None, config_file="/etc/dhcpsnooper.conf", filter="port 68") -> None:
         self.config = SnooperConfiguration()
         self.init_config(config_file)
         self.callback = callback
